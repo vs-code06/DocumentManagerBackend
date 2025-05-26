@@ -12,6 +12,9 @@ import docx
 import os
 import requests
 
+def index(request):
+    return render(request, 'index.html')
+
 class UserCreateView(generics.CreateAPIView):
     queryset = User.objects.all()
     serializer_class = UserSerializer
