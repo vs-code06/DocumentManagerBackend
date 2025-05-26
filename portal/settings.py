@@ -111,7 +111,7 @@ SIMPLE_JWT = {
 }
 
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000",
+    "https://fascinating-kangaroo-87b653.netlify.app/",
 ]
 
 CORS_ALLOW_ALL_ORIGINS = True
